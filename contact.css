@@ -333,7 +333,7 @@ label {
   box-shadow: 2px 1px white;
   color:  #EE7700;;
   z-index: 1;
-  font-size: 10px;
+  font-size: 17px;
 }
 .dropdowncontent div p {
   margin: 10px;
@@ -346,7 +346,7 @@ label {
   background: #E2ECF5;
   border: none;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
 }
 .dropdown button img {
