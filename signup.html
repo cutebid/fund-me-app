@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sign up </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div id="success">
+        <div class="success-wrapper">
+            <div class="complete-icon">
+                <div class="dash-circle"></div>
+                <div class="solid-circle"></div>
+                <div class="mark">
+                    <i class="fas fa-check"></i>
+                </div>
+            </div>
+            <div class="cong-msg">
+                <h3>Congratulations</h3>
+                <p class="head-cong">You have successfully completed your profile</p>
+                <p class="notice-cong" id="success-message"></p>
+                <a href="index.html" class="go-home-link">Go to Home Page</a>
+            </div>
+        </div>
+    </div>
+    <section>
+        <aside class="left">
+            <a href="./index.html">
+                <div class="logo">
+                   <img id="logoCircle" src="./images/ellipse.png" alt="logo circle">
+                   <img id="logoText" src="./images/edufund.png" alt="logo">
+                </div>
+            </a>
+            <div class="left-text">
+                <h1> Welcome to <br> our community</h1>
+                <p> Fill the form and become one of our esteemed benevolent Sponsors who connect
+                    to and empower children who are challenged academically.
+                </p>
+            </div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+        </aside>
+        <aside class="right ">
+            <h2> Sign Up </h2>
+            <div class="sign-up googleContainer">
+                <a href="#">
+                    <img src="./images/google.jpg" alt="google" width="30px">
+                    Sign Up with Google
+                </a>
+            </div>
+            <div class="sign-up fbContainer">
+                <a href="#">
+                    <img src="./images/fblogo.png" alt="Facebook" width="10px" ;>
+                    Sign Up with Facebook
+                </a>
+            </div>
+            <div class="lines">
+                <div class=" line line1"></div>
+                <p class="para"> Or </p>
+                <div class=" line line2"></div>
+            </div>
+            <form action="">
+                <div class=" input-field name">
+                    <label class="Label" for="name"> Full Name </label>
+                    <input type="text" class="input-type" id="Name">
+                    <p id="namePara"></p>
+                </div>
+                <div class=" input-field phone-number">
+                    <label class="Label" for="phone number"> Phone Number </label>
+                    <input type="text" class="input-type" id="Number">
+                    <p id="numberPara"></p>
+                </div>
+                <div class=" input-field email">
+                    <label class="Label" for="email"> Email Address </label>
+                    <input type="email" class="input-type" id="Email">
+                    <p id="emailPara"></p>
+                </div>
+                <div class=" input-field password">
+                    <label class="Label" for="password"> Password </label>
+                    <input type="password" class="input-type" id="password">
+                </div>
+                <button class="btn" id='signup'> Sign Up </button>
+                <p></p>
+            </form>
+            <p class="text2">Already have account? <a href="sponsor-login-page.html"> Log In </a> </p>
+        </aside>
+    </section>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>

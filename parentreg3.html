@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/stureg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <title>Fundme | Parent Registration</title>
+</head>
+
+<body>
+    <a href="./index.html">
+        <div class="logo">
+           <img id="logoCircle" src="./images/ellipse.png" alt="logocircle">
+           <img id="logoText" src="./images/edufund.png" alt="logo">
+        </div>
+    </a>
+    <main>
+        <div id="success">
+            <div class="success-wrapper">
+                <div class="complete-icon">
+                    <div class="dash-circle"></div>
+                    <div class="solid-circle"></div>
+                    <div class="mark">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="cong-msg">
+                    <h3>Congratulations</h3>
+                    <p class="head-cong">You have successfully completed your profile</p>
+                    <p class="notice-cong">Your verification is pending. you will be notified by email when the
+                        verification
+                        is completed.</p>
+                    <p class="notice-cong">You will not be able to request for aid until the process is completed.</p>
+                    <a href="index.html" class="go-home-link">Go to Home Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="reg-progress">
+            <div class="progress-wrapper-top">
+                <div class="not-done "><i class="fas fa-check green"></i></div>
+                <div class="progress-line"></div>
+                <div class="not-done"><i class="fas fa-check green"></i></div>
+                <div class="progress-line"></div>
+                <div class="stage active">3</div>
+            </div>
+            <div class="progress-wrapper-bottom">
+                <div class="stage-name">Personal Information</div>
+                <div class="stage-name">Personal Verification</div>
+                <div class="stage-name">Profile Completion</div>
+            </div>
+        </div>
+        <div class="reg-container">
+            <h3>Complete your parent profile</h3>
+            <p class="gray">Step 3 of 3</p>
+            <div class="inner-section">
+                <h1>You are almost done!</h1>
+                <p class="notice">You'll receive an OTP on your registered mobile number</p>
+                <p class="notice marg-top">Please enter verification code sent to <b>+2348031234543</b></p>
+            </div>
+            <form action="">
+                <div class="input-section">
+                    <div class="otp-left">
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                    </div>
+                    <div class="otp-right">
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                        <div class="input-border">
+                            <input type="text" maxlength="1" placeholder="-">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OTP value is here-->
+                <input type="hidden" name="otp" id="otp">
+
+                <button type="submit" id="otpsubmit">Submit</button>
+                <a href="#" class="cancel">Cancel</a>
+            </form>
+
+        </div>
+    </main>
+</body>
+<script src="./assets/js/otp.js"></script>
+
+</html>

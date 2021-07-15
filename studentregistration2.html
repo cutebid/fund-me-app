@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="./index.html">
+        <div class="logo">
+            <img id="logoCircle" src="./images/ellipse.png" alt="logocircle">
+            <img id="logoText" src="./images/edufund.png" alt="logo">
+        </div>
+    </a>
+    <div class="container">
+        <div id="progressBar">
+            <div class="step">
+                <div class="bullet  completed"> 1 </div>
+                <p class="step-text"> Personal Information </p>
+            </div>
+            <div class="step">
+                <div class="bullet complete completed"> 2 </div>
+                <p class="step-text"> Student Verification</p>
+            </div>
+            <div class="step">
+                <div class="bullet"> 3 </div>
+                <p class="step-text"> Profile Completion </p>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h4> Set Up Your Student Profile</h4>
+        <p class="text">step 2 0f 3 </p>
+        <p class="text-para"> Fill your school details for proper verification </p>
+        <form action="">
+            <div class="input-field">
+                <label for="schoolname"> School Name </label>
+                <input type="text" class="inputType">
+            </div>
+            <div class="input-field">
+                <label for="schooladdress"> School Address </label>
+                <input type="text" class="inputType">
+            </div>
+            <div class="input-field-container">
+                <div class="input-field">
+                    <label for="lga"> School’s LGA </label>
+                    <input type="text" class="inputType input-item">
+                </div>
+                <div class="input-field">
+                    <label for="state"> State </label>
+                    <input type="text" class="inputType input-item">
+                </div>
+            </div>
+            <div class="input-field-container">
+                <div class="radioInput">
+                    <input type="radio">
+                    <label for="Radio"> Private Secondary School </label>
+                </div>
+                <div class="radioInput">
+                    <input type="radio">
+                    <label for="Radio"> Goverment Secondary School </label>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="schoolemail"> School Email Address </label>
+                <input type="email" class="inputType">
+            </div>
+            <div class="input-field-container">
+                <div class="input-field">
+                    <label for="principalName"> Principal’s Name </label>
+                    <input type="text" class="inputType input-item">
+                </div>
+                <div class="input-field">
+                    <label for="phoneNumber"> Phone Number </label>
+                    <input type="tel" class="inputType input-item">
+                </div>
+            </div>
+            <div class="input-field-container">
+                <div class="input-field">
+                    <label for="teacherName"> Teacher’s Name </label>
+                    <input type="text" class="inputType input-item">
+                </div>
+                <div class="input-field">
+                    <label for="phoneNumber"> Phone Number </label>
+                    <input type="tel" class="inputType input-item">
+                </div>
+            </div>
+        </form>
+        <p class="txt"> Upload Identification Documents Below </p>
+        <div class="fileContainer">
+            <div class="file-left">
+                <div class="file-wrapper">
+                    <img src="./images/cloud.png" alt="cloud">
+                    <p class="para3"> ID Card </p>
+                    <div class="buttons">
+                        <div class="pictureBtn">
+                            <input type="file" id="file">
+                            <label for="file">
+                                <span>
+                                    <i class="fas fa-camera camera"></i>
+                                </span>
+                                Camera
+                            </label>
+                        </div>
+                        <div class="uploadBtn">
+                            <span>
+                                <i class="far fa-file-alt upload"></i>
+                            </span> &nbsp;
+                            Upload
+                        </div>
+                    </div>
+                </div>
+                <p class="para2"> Who are you? (ID verification) </p>
+            </div>
+            <div class="file-right">
+                <div class="file-wrapper">
+                    <img src="./images/cloud.png" alt="cloud">
+                    <p class="para3"> School Result </p>
+                    <div class="buttons">
+                        <div class="pictureBtn">
+                            <input type="file" id="file">
+                            <label for="file">
+                                <span>
+                                    <i class="fas fa-camera camera"></i>
+                                </span>
+                                Camera
+                            </label>
+                        </div>
+                        <div class="uploadBtn">
+                            <span> <i class="far fa-file-alt upload"></i> </span> &nbsp;
+                            Upload
+                        </div>
+                    </div>
+                </div>
+                <p class="para2"> Last Session result </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <a href="studentregistration.html"> Go back </a>
+        <a href="studentreg3.html" class="nextbtn" style="text-decoration: none; color: black">Next </a>
+    </div>
+</body>
+
+</html>

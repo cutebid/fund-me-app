@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.logo {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 9999999999999999 !important;
+}
+.logo > .eclipse_1 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 26px;
+    left: 40px;
+    border-radius: 100%;
+    background: var(--brown);
+    z-index: 1 !important;
+}*/
+
+body{
+    background: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 60vw;
+    height: 90vh;
+    background: #fff;
+    display: flex;
+}
+
+.div-one {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 119, 238, 0.08);
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-one img {
+    position: absolute;
+    width: 170px;
+    left: 55px;
+    top: 40px;
+}
+
+.div-one .text-content {
+    width: 450px;
+    text-align: left;
+}
+
+.div-one .text-content h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.div-one .text-content p{
+    font-size: 20px;
+}
+
+.div-one .love-div {
+    width: 200px;
+    height: 200px;
+    /*background:rgba(238, 119, 0, 0.47);*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.div-one .love-div .inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #ee7700;
+    outline: none;
+    z-index: 9999999999;
+}
+
+.div-one .love-div .inner::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    background: inherit;
+    outline: none;
+}
+
+.div-one .love-div .inner::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    right: -50%;
+    background: inherit;
+}
+/*Code snippet from stack overflow*/
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  /*ends here*/
+
+  .div-two {
+      width: 50%;
+      height: 100%;
+  }
+
+  .div-two h2 {
+      font-size: 48px;
+      margin-left: 55px;
+      font-weight: 700;
+      margin-top: 85px;
+      margin-bottom: 50px;
+  }
+
+  .div-two .google-btn {
+      margin-left: 55px;
+      width: 400px;
+      height: 45px;
+      border: 1px solid #ee7700;
+      border-radius: 5px;
+      background: #fff;
+      margin-bottom: 20px;
+  }
+
+  .div-two .google-btn:hover{
+      cursor: pointer;
+  }
+
+  .div-two .google-btn span {
+      font-size: 20px;
+      margin-left: 12px;
+  }
+
+  .div-two .facebook-btn {
+    margin-left: 55px;
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #344f88;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  .div-two .facebook-btn:hover {
+      cursor: pointer;
+  }
+
+  .div-two .facebook-btn .fa-facebook-f {
+      color: #fff;
+  }
+
+  .div-two .facebook-btn span{
+      color: #fff;
+      margin-left: 12px;
+  }
+
+  .div-two .hr {
+      margin-left: 55px;
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+  }
+
+  .div-two .hr .hr1 {
+      width: 42%;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: #9a9a9a;
+      border-width: 2px;
+  }
+
+  .div-two .hr .hr2 {
+      width: 42%;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: #9a9a9a;
+      border-width: 2px;
+  }
+
+  .div-two .hr p {
+      margin-left: 9px;
+      margin-right: 9px;
+      margin-bottom: 5px;
+      font-size: 20px;
+  }
+
+  .div-two .login-field {
+      width: 400px;
+      margin-left: 55px;
+      font-size: 20px;
+  }
+
+  .div-two .login-field label input{
+      width: 100%;
+      height: 45px;
+      border-radius: 5px;
+      outline: none;
+      font-size: 20px;
+      padding: 10px;
+      border-color: #cacaca;
+      opacity: 0.7;
+      margin-bottom: 20px;
+  }
+
+  .div-two .login-field label p {
+      margin-bottom: 8px;
+      text-align: left;
+  }
+
+  .div-two .login-field button {
+      width: 100%;
+      border: none;
+      background: #ee7700;
+      height: 45px;
+      border-radius: 5px;
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 10px;
+  }
+
+  .div-two .login-field button:hover {
+      cursor: pointer;
+  }
+
+  .div-two .login-field p {
+      text-align: center;
+  }
+
+  .div-two .login-field p a {
+      text-decoration: none;
+      color: #ee7700;
+  }
+
+  @media (max-width: 1366px) {
+    body {
+        background: #fff;
+    }
+    .container {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .div-one img {
+        width: 130px;
+    }
+
+    .div-one .text-content {
+        width: 380px;
+    }
+    
+    .div-one .text-content h1 {
+        font-size: 48px;
+        margin-bottom: 9px;
+    }
+    
+    .div-one .text-content p{
+        font-size: 17px;
+    }
+
+    .div-one .love-div {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .div-one .love-div .inner::after{
+        content: "";
+        width: 100px;
+        height: 100px;
+    }
+    
+    .div-one .love-div .inner::before{
+        content: "";
+        width: 100px;
+        height: 100px;
+    }
+
+    .div-two h2 {
+        font-size: 32px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+  
+    .div-two .google-btn {
+        width: 320px;
+        height: 38px;
+        margin-bottom: 10px;
+    }
+
+    .div-two .google-btn span {
+        font-size: 17px;
+        margin-left: 9px;
+    }
+  
+    .div-two .facebook-btn {
+      width: 320px;
+      height: 38px;
+      margin-bottom: 15px;
+    }
+
+    .div-two .facebook-btn span{
+        color: #fff;
+        margin-left: 9px;
+    }
+  
+    .div-two .hr {
+        width: 320px;
+        margin-bottom: 15px;
+    }
+  
+    .div-two .hr p {
+        font-size: 16px;
+    }
+
+    .div-two .login-field {
+        width: 320px;
+        margin-left: 55px;
+        font-size: 16px;
+    }
+  
+    .div-two .login-field label input{
+        width: 100%;
+        height: 35px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .div-two .login-field button {
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+  }
+
+  @media (max-width: 766px) {
+    body {
+        background: #fff;
+    }
+    .container {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .div-one img {
+        top: 10px;
+        width: 100px;
+    }
+
+    .div-one {
+        width: 100%;
+        background: rgba(0, 119, 238, 0.08);
+        padding-bottom: 20px;
+    }
+
+    .div-one .love-div {
+        display: none;
+    }
+
+    .div-one .text-content {
+        width: 80%;
+        margin-top: 45px;
+    }
+    
+    .div-one .text-content h1 {
+        font-size: 28px;
+        margin-bottom: 9px;
+    }
+    
+    .div-one .text-content p{
+        font-size: 16px;
+    }
+
+    .div-two h2 {
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+  }

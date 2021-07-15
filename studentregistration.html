@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/stureg.css">
+    <title>Fundme | Student Registration</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <div class="eclipse_1"></div>
+
+                <svg width="100%" height="30" viewBox="0 0 240 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4.896 24.288V30.704H12.992V34.016H4.896V40.56H15.168V44H0.576V20.864H15.168V24.288H4.896ZM56.3963 22.31C56.3963 25.49 55.8663 28.41 54.8063 31.07C53.7463 33.73 52.2563 36.02 50.3363 37.94C48.4163 39.86 46.1063 41.35 43.4063 42.41C40.7063 43.47 37.7063 44 34.4063 44H17.8763V0.619997H34.4063C37.7063 0.619997 40.7063 1.16 43.4063 2.24C46.1063 3.3 48.4163 4.79 50.3363 6.71C52.2563 8.61 53.7463 10.89 54.8063 13.55C55.8663 16.21 56.3963 19.13 56.3963 22.31ZM48.1163 22.31C48.1163 19.93 47.7963 17.8 47.1563 15.92C46.5363 14.02 45.6263 12.42 44.4263 11.12C43.2463 9.8 41.8063 8.79 40.1063 8.09C38.4263 7.39 36.5263 7.04 34.4063 7.04H25.9763V37.58H34.4063C36.5263 37.58 38.4263 37.23 40.1063 36.53C41.8063 35.83 43.2463 34.83 44.4263 33.53C45.6263 32.21 46.5363 30.61 47.1563 28.73C47.7963 26.83 48.1163 24.69 48.1163 22.31ZM74.6808 37.49C76.2408 37.49 77.6308 37.23 78.8508 36.71C80.0908 36.19 81.1308 35.46 81.9708 34.52C82.8108 33.58 83.4508 32.44 83.8908 31.1C84.3508 29.76 84.5808 28.26 84.5808 26.6V0.619997H92.6508V26.6C92.6508 29.18 92.2308 31.57 91.3908 33.77C90.5708 35.95 89.3808 37.84 87.8208 39.44C86.2808 41.02 84.4008 42.26 82.1808 43.16C79.9608 44.04 77.4608 44.48 74.6808 44.48C71.8808 44.48 69.3708 44.04 67.1508 43.16C64.9308 42.26 63.0408 41.02 61.4808 39.44C59.9408 37.84 58.7508 35.95 57.9108 33.77C57.0908 31.57 56.6808 29.18 56.6808 26.6V0.619997H64.7508V26.57C64.7508 28.23 64.9708 29.73 65.4108 31.07C65.8708 32.41 66.5208 33.56 67.3608 34.52C68.2208 35.46 69.2608 36.19 70.4808 36.71C71.7208 37.23 73.1208 37.49 74.6808 37.49Z"
+                        fill="#0077EE"></path>
+                    <path
+                        d="M103.552 7.04V19.88H119.812V26.33H103.552V44H95.452V0.619997H122.812V7.04H103.552ZM140.596 37.49C142.156 37.49 143.546 37.23 144.766 36.71C146.006 36.19 147.046 35.46 147.886 34.52C148.726 33.58 149.366 32.44 149.806 31.1C150.266 29.76 150.496 28.26 150.496 26.6V0.619997H158.566V26.6C158.566 29.18 158.146 31.57 157.306 33.77C156.486 35.95 155.296 37.84 153.736 39.44C152.196 41.02 150.316 42.26 148.096 43.16C145.876 44.04 143.376 44.48 140.596 44.48C137.796 44.48 135.286 44.04 133.066 43.16C130.846 42.26 128.956 41.02 127.396 39.44C125.856 37.84 124.666 35.95 123.826 33.77C123.006 31.57 122.596 29.18 122.596 26.6V0.619997H130.666V26.57C130.666 28.23 130.886 29.73 131.326 31.07C131.786 32.41 132.436 33.56 133.276 34.52C134.136 35.46 135.176 36.19 136.396 36.71C137.636 37.23 139.036 37.49 140.596 37.49ZM197.938 0.619997V44H193.798C193.158 44 192.618 43.9 192.178 43.7C191.758 43.48 191.348 43.12 190.948 42.62L168.298 13.7C168.418 15.02 168.478 16.24 168.478 17.36V44H161.368V0.619997H165.598C165.938 0.619997 166.228 0.639997 166.468 0.679996C166.728 0.699997 166.948 0.759998 167.128 0.859998C167.328 0.939999 167.518 1.07 167.698 1.25C167.878 1.41 168.078 1.63 168.298 1.91L191.038 30.95C190.978 30.25 190.928 29.56 190.888 28.88C190.848 28.2 190.828 27.57 190.828 26.99V0.619997H197.938ZM239.818 22.31C239.818 25.49 239.288 28.41 238.228 31.07C237.168 33.73 235.678 36.02 233.758 37.94C231.838 39.86 229.528 41.35 226.828 42.41C224.128 43.47 221.128 44 217.828 44H201.298V0.619997H217.828C221.128 0.619997 224.128 1.16 226.828 2.24C229.528 3.3 231.838 4.79 233.758 6.71C235.678 8.61 237.168 10.89 238.228 13.55C239.288 16.21 239.818 19.13 239.818 22.31ZM231.538 22.31C231.538 19.93 231.218 17.8 230.578 15.92C229.958 14.02 229.048 12.42 227.848 11.12C226.668 9.8 225.228 8.79 223.528 8.09C221.848 7.39 219.948 7.04 217.828 7.04H209.398V37.58H217.828C219.948 37.58 221.848 37.23 223.528 36.53C225.228 35.83 226.668 34.83 227.848 33.53C229.048 32.21 229.958 30.61 230.578 28.73C231.218 26.83 231.538 24.69 231.538 22.31Z"
+                        fill="black"></path>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="reg-progress">
+            <div class="progress-wrapper-top">
+                <div class="stage active">1</div>
+                <div class="progress-line"></div>
+                <div class="not-done">2</div>
+                <div class="progress-line"></div>
+                <div class="not-done">3</div>
+            </div>
+            <div class="progress-wrapper-bottom">
+                <div class="stage-name">Personal Verification</div>
+                <div class="stage-name">Student Verification</div>
+                <div class="stage-name">Profile Completion</div>
+            </div>
+        </div>
+        <div class="reg-container-1">
+
+            <form action="#">
+                <h3>Setup up your Student Profile</h3>
+                <p>Step 1 of 3</p>
+                <div class="input-container">
+                    <label for="fullname">Full Name</label>
+                    <div class="custom-input-border">
+                        <input type="text" id="fullname">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email Address</label>
+                    <div class="custom-input-border">
+                        <input type="email" id="email">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone Number</label>
+                    <div class="custom-input-border">
+                        <input type="tel" id="phoneno">
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="dateofbirth">Date of Birth</label>
+                    <div class="custom-input-border">
+                        <input type="date">
+                        <div class="input-icon">
+                            <img src="./assets/images/calendar.png" alt="cal">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="input-container">
+                    <label for="email">Password</label>
+                    <div class="custom-input-border">
+                        <input type="password" id="password">
+                    </div>
+                </div>
+                <div class="input-container-double">
+                    <div class="input-section-left">
+                        <label for="state">State</label>
+                        <div class="custom-input-border">
+                            <input type="text" name="state">
+                        </div>
+                    </div>
+                    <div class="input-section-right">
+                        <label for="lga">LGA</label>
+                        <div class="custom-input-border">
+                            <input type="text" name="lga">
+                        </div>
+                    </div>
+                </div>
+                <div id="home-address-container">
+                    <div class="input-container">
+                        <label for="address">Home Address 1</label>
+                        <div class="custom-input-border">
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div id="add-home-address">
+                    <span><img src="./assets/images/plus.png" alt="plus"></span>
+                    <span style="padding-left: 5px;"> Add home address line <span id="next-address">2</span></span>
+                </div>
+                <p id="err-msg"></p>
+                <div class="submit-container">
+                    <a href="#">Go Back</a>
+                    <button type="submit" id="submit-student-form">Next</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+<script>
+    const addAddressButton = document.getElementById('add-home-address')
+    const addressContainer = document.getElementById('home-address-container')
+    const nextAddress = document.getElementById('next-address')
+    addAddressButton.addEventListener('click', () => {
+        let listOfAddress = addressContainer.querySelectorAll('.input-container')
+        let lengthOfAddress = listOfAddress.length
+        addressContainer.innerHTML += ` <div class="input-container">
+    <label for="address">Home Address ${lengthOfAddress + 1}</label>
+    <div class="custom-input-border">
+        <input type="text">
+    </div>
+</div>`;
+        nextAddress.textContent = lengthOfAddress + 2
+    })
+</script>
+<script src="./assets/js/api.js"></script>
+
+</html>
